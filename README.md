@@ -4,7 +4,7 @@
 ## Objective
 Compare the results predicted by the linear system model of an optical fiber with the results of simulation.
 
----
+
 
 ## Theory
 An optical fiber can be represented approximately by a linear system with an impulse response \(h(t)\) or a transfer function \(H(j\omega)\).  
@@ -14,7 +14,6 @@ If the optical source has a spectral width much greater than the signal bandwidt
 <img width="1482" height="1120" alt="image" src="https://github.com/user-attachments/assets/83f63473-b1b3-4afc-ad17-9e9850041cae" />
 
 
----
 
 ### Output Pulse Broadening
 If a Gaussian pulse is input to a linear system with a Gaussian impulse response, the output is also Gaussian with RMS width:
@@ -22,8 +21,6 @@ If a Gaussian pulse is input to a linear system with a Gaussian impulse response
 <img width="340" height="102" alt="image" src="https://github.com/user-attachments/assets/c60d35c1-8a0f-4c50-873d-1314ec59a29f" />
 
 
-
----
 
 ## Calculations
 **System Parameters:**
@@ -38,7 +35,11 @@ If a Gaussian pulse is input to a linear system with a Gaussian impulse response
 | | Length | 50 km |
 
 **Required Calculations:**
-<img width="1548" height="298" alt="image" src="https://github.com/user-attachments/assets/b2fb676a-afb0-48ef-914b-309b2ea38a17" />
+- RMS width of transmitted pulse (\(T_{in}\))  
+- RMS spectral width of transmitted pulse (\(\Delta \lambda\))  
+- RMS width of fiber impulse response (\(T_F\))  
+- RMS width of pulse at fiber far end (\(T_{out}\))  
+
 
 
 ## Layout
@@ -48,7 +49,7 @@ Place and connect the following components:
 3. **Optical fiber** – set according to specifications  
 4. **Optical spectrum analyzers** and **optical time domain visualizers** at input and output of fiber  
 
----
+
 
 ## Simulation
 - Set the parameters and run the simulation.  
@@ -56,15 +57,23 @@ Place and connect the following components:
   - FWHM width of input and output pulses  
   - FWHM width of optical spectra  
 
----
 
 ## Analysis
 Compare the simulation results with the theoretical calculations and discuss any observed differences.
 
 
----
- Results to Record
+
+##  Results to Record
 <img width="1448" height="1015" alt="Screenshot 2026-02-05 113211" src="https://github.com/user-attachments/assets/5a7b450e-e6d6-4efc-8c33-791775fdfa8c" />
+
+## Output:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae3a58fd-65ca-436c-92d3-40ff60671bc4" />
+
+## calculation:
+<img width="1003" height="1531" alt="image" src="https://github.com/user-attachments/assets/5296709c-58cf-4609-8e71-5775f2dd7196" />
+
+## Result:
+Thus,the results predicted by the linear system model of an optical fiber with the results of simulation has been verified.
 
 
 
